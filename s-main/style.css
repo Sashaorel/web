@@ -1,0 +1,96 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: silver;
+	color: black;
+}
+header{
+	display: flex;
+	justify-content: left;	
+	background: #5d72b0;
+}
+.logo, .Top_menu{
+	display: flex;
+	justify-content: left;
+	display: inline-block;
+}
+
+.Top_menu li{
+	margin-right: 150px;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+.Top_menu a{
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+.Top_menu a:hover{
+	color: lightpink;
+}
+
+.logo h1{
+	font-size: 50px;
+	color: black;
+	text-decoration: none;
+}
+.logo a{
+	color: black;
+	text-decoration: none;
+}
+.logo a:hover{
+	color: lightpink;
+}
+#video a{
+	color: black;
+	text-decoration: none;
+}
+#video a:hover{
+	color:  #5d72b0;
+}
+table{
+	transform: translateX(85px);
+}
+tr{
+		font-size: 15px;
+		justify-content: center;
+  }
+.footer li{
+	display: inline-block;
+	margin-right: 350px;
+	font-size: 20px;
+}
+.footer a{
+	color: black;
+	text-decoration: none;
+}
+.footer a:hover{
+	color: lightpink;
+}
+footer{
+	background:#5d72b0 ;
+	padding: 10px;
+}
+.clickss {
+	
+	margin-top: 75px; margin-left: 270px;
+	padding: 10px;
+	background-color: rgb(76, 87, 183);
+	width: 200px;
+	border-radius: 30px; border: 3px solid #7922CC;
+	border-color: black;	
+}
+.clickss a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;	
+}
+.clickss a:hover {
+	color: lightpink;
+	text-align: center;
+}
+
+
